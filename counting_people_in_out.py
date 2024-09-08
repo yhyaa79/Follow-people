@@ -4,6 +4,9 @@ import torch
 import math
 import numpy as np
 
+name_video = "inpot_video1.mp4"
+
+
 class Tracker:
     def __init__(self):
         self.center_points = {}  # Track object center points
